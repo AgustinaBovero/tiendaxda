@@ -1,0 +1,81 @@
+.navbar__brand {
+    font-size: $large;
+    font-weight: $regular;
+    font-family: $old-standard;
+}
+
+@media (min-width: 768px) {
+      .navbar__brand {
+        font-size: 20px; }
+}
+
+.navbar__hamburger {
+    font-size: $large;
+    font-weight: $bold;
+}
+
+.navbar__item {
+    font-family: $raleway;
+    font-size: $large;
+    font-weight: $bold;
+  }
+
+  .main .information__title {
+        color: $smoky-black;
+        font-size: $xx-large;
+        font-weight: $bold;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+  }
+
+@media (min-width: 768px) {
+        .main .information__title {
+          font-size: 50px; }
+}
+
+@media (min-width: 992px) {
+        .main .information__title {
+          line-height: 1.2;
+          margin: 0 100px 0 0; }
+}
+
+.main .information__text {
+      color: $granite-gray;
+      font-family: $raleway;
+      font-size: $small;
+      font-weight: $regular;
+      margin: 20px 0;
+      line-height: 1.5;
+    }
+
+    @media (min-width: 768px) {
+      .main .information__text {
+      font-size: $medium;
+      margin: 20px 150px 20px 0; }
+     }
+
+
+  .main .newsletter__title {
+        color: $white;
+        font-size: $x-large;
+        font-weight: $bold;
+  }
+
+  .main .newsletter__label {
+        color: $light-gray;
+        display: block;
+        font-size: $small;
+        font-weight: $regular;
+  }
+
+
+  .main .newsletter__subscribe {
+        background-color: $white;
+        font-size: $large;
+        font-weight: $bold;
+  }
+
+  @media (min-width: 768px) {
+          .main .newsletter__subscribe {
+            font-size: $x-large; }
+    }
